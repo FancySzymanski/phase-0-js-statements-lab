@@ -10,12 +10,10 @@ if (temperature > 80) {
         console.log ("Watering off")
     }
 //Step 6: Garden Lights Control
-if (timeOfDay == "evening" ) {
+if (timeOfDay == "evening" || timeOfDay == "night" ) {
     console.log("Lights on")
 }
-    else if (timeOfDay == "night" ) {
-     console.log("Lights on")
-}
+
     else {
         console.log ("Lights off")
     }
